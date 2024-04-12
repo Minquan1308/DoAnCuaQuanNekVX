@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TH_Lap3.props" />
+</Project>

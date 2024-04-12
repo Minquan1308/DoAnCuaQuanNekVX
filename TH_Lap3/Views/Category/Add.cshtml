@@ -1,0 +1,18 @@
+﻿@model TH_Lap3.Models.Category
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    ViewData["Title"] = "Add Category";
+}
+<h2>Add Category</h2>
+
+<form asp-action="Add" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+    <button asp-action="Index" class="btn btn-success">Back</button>
+</form>
+
+

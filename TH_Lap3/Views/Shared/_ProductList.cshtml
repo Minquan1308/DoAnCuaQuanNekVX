@@ -1,0 +1,74 @@
+﻿@* @if (Model != null && Model.Count > 0)
+{
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="@Url.Content(product.ImageUrl)" class="card-img-top" alt="@product.Name">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Description</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a asp-controller="Product" asp-action="Display" asp-route-id="@product.Id" class="btn btn-sm btn-outline-secondary">View</a>
+                            </div>
+                            <small class="text-muted">@product.Price.ToString("C")</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No products found.</p>
+} *@
+@model IEnumerable<TH_Lap3.Models.Product>
+
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm";
+}
+
+<h1 class="products-display-title p-3">Kết quả tìm kiếm</h1>
+
+@if (Model.Any())
+{
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+            @foreach (var product in Model)
+            {
+                <div class="col-4 border border-success md-3 p-3">
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" alt="Product Image" style="width: 250px; height: 250px; display: block; margin: 0 auto;" />
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }
+                    <h4 style="text-align:center">@product.Name</h4>
+                    <h5 style="text-align:center">@product.Category.Name</h5>
+                    <h5 style="text-align:center">@product.Price</h5>
+                    <div class="rating" style="text-align: center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <button class="btn btn-outline-light" style="background-color: #FF9999; " type="submit">AddToCart</button>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" />
+                    </form>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <p>Không tìm thấy sản phẩm nào phù hợp với từ khóa tìm kiếm.</p>
+}

@@ -1,0 +1,19 @@
+﻿@model TH_Lap3.Models.Product
+<div class="product-container">
+<h2 style="text-align: center;">@Model.Name</h2>
+
+<div class="product-details">
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <img src="@Model.ImageUrl" alt="Product Image" class="product-image" />
+    }
+
+    <div class="product-description">
+        <h3>Price: @Model.Price</h3>
+        <p>@Model.Description</p>
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-outline-dark d-block mx-auto mt-3">Back to List</a>
+</div>
+

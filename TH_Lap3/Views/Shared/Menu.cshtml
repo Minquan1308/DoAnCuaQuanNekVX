@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Category>
+
+<ul>
+    @foreach (var category in Model)
+    {
+        <li><a href="@Url.Action("Products", "Category", new { id = category.Id })">@category.Name</a></li>
+    }
+</ul>

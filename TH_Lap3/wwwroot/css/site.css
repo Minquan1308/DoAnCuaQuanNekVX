@@ -1,0 +1,52 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.product-container {
+    border: 1px solid #ccc; /* ??nh d?ng khung s?n ph?m */
+    padding: 20px;
+    margin-bottom: 20px; /* Kho?ng cách gi?a các s?n ph?m */
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    max-width: 200px; /* ??nh d?ng kích th??c hình ?nh */
+    margin-right: 20px; /* Kho?ng cách gi?a hình ?nh và mô t? s?n ph?m */
+}
+
+.product-description {
+    flex: 1; /* M? r?ng mô t? s?n ph?m ?? l?p ??y ph?n còn l?i c?a s?n ph?m */
+}
+
+header {
+    background-color: #FF9999; /* Màu n?n c?a header */
+    color: darkgray; /* Màu ch? c?a header */
+    font-family: 'Comic Sans MS';
+    font-size: larger;
+    height: 100px;
+    /*  padding: 20px;*/ /* Kho?ng cách gi?a n?i dung và vi?n c?a header */
+    text-align: center; /* C?n gi?a n?i dung c?a header */
+}
+
+footer {
+    background-color: #FF9999;
+}

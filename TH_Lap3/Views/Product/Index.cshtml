@@ -1,0 +1,58 @@
+﻿ @model IEnumerable<TH_Lap3.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    /* CSS để thiết kế lại font chữ cho tiêu đề "Products Display" */
+    .products-display-title {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Chọn font chữ bạn muốn sử dụng */
+        text-align: center; /* Căn giữa tiêu đề */
+        margin-bottom: 20px; /* Khoảng cách bottom */
+    }
+</style>
+<h1 class="products-display-title p-3">Products Display</h1>
+<br>
+<div>
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+            @foreach (var product in Model)
+            {
+                <div class="col-4 border border-success md-3 p-3">
+                    @if (!String.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" alt="Product Image" style="width: 250px; height: 250px; display: block; margin: 0 auto;" />
+                        @* <img src="@product.ImageUrl" alt="Product Image" style="width: 200px; height: 200px; object-fit: cover; text-align:center"" /> *@
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }
+                    <h4 style="text-align:center">@product.Name</h4>
+                    @* <h5 style="text-align:center">@product.Description</h5> *@
+                    <h5 style="text-align:center">@product.Category.Name</h5>
+                    <h5 style="text-align:center">@product.Price</h5>
+                    <div class="rating" style="text-align: center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        @* <label for="quantity">Số Lượng :</label> *@
+                        <button class="btn btn-outline-light" style="background-color: #FF9999; " type="submit">AddToCart</button>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" />
+                        @* <button class="btn btn-outline-light" style="background-color: #FF9999; " type="submit">AddToCart</button> *@
+                    </form>
+                    @*  <form action="@Url.Action("AddToCart","ShoppingCart")" method="post">
+                <input type="hidden" name="productId" value="@product.Id" />
+                <input type="hidden" name="quantity" value="1" />
+                <button type="submit" class="btn-add-to-cart">Add to Cart</button>
+                </form> *@
+                </div>
+            }
+        </div>
+    </div>
+</div>

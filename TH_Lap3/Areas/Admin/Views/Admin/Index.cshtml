@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TH_Lap3.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead style="background-color:gray;color: #fff;
+           padding: 20px;
+           text-align: center;">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody style="background-image: linear-gradient(to right, #8360c3, #2ebf91);color: #fff;font-family: Arial, sans-serif;text-align: center;
+    margin: 0;
+    padding: 0;">
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Description</td>
+                @* <td>@product.ImageUrl</td> *@
+                <td>
+                    @if (!string.IsNullOrEmpty(@product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" alt="Product Image" style="max-width: 200px;" />
+                    }
+                </td>
+                <td>@product.Category?.Name </td>
+
+                <td>
+                    <a class="btn btn-primary" asp-action="Display" asp-route-id="@product.Id">View</a> |
+                    <a class="btn btn-success" asp-action="Update" asp-route-id="@product.Id">Edit</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

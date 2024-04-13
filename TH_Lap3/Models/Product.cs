@@ -15,5 +15,6 @@ namespace TH_Lap3.Models
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
 
+        public int TotalQuantitySold { get; set; }
     }
 }

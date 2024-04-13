@@ -46,6 +46,7 @@
                         <input type="number" id="quantity" name="quantity" value="1" min="1" />
                         @* <button class="btn btn-outline-light" style="background-color: #FF9999; " type="submit">AddToCart</button> *@
                     </form>
+                    <h6>Đã bán: @product.TotalQuantitySold</h6>
                     @*  <form action="@Url.Action("AddToCart","ShoppingCart")" method="post">
                 <input type="hidden" name="productId" value="@product.Id" />
                 <input type="hidden" name="quantity" value="1" />

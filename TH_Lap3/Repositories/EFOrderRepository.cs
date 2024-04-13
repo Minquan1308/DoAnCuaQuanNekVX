@@ -32,11 +32,19 @@ namespace TH_Lap3.Repositories
         }
         public async Task<IEnumerable<Order>> GetAllAsync()
         {
-            return await _context.Orders
-       .Include(o => o.ApplicationUser)
-       .Include(o => o.OrderDetails)
-           .ThenInclude(od => od.Product)
-       .ToListAsync();
+            var orders = await _context.Orders
+                .Include(o => o.ApplicationUser)
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .ToListAsync();
+
+            // Tính toán TotalQuantitySold cho mỗi đơn hàng
+            foreach (var order in orders)
+            {
+                order.TotalQuantitySold = await GetTotalQuantitySoldAsync(order.Id);
+            }
+
+            return orders;
         }
         public async Task<Order> GetByIdAsync(int id) //trả về một đối tượng Order khi tác vụ hoàn thành
         {
@@ -57,6 +65,21 @@ namespace TH_Lap3.Repositories
             var order = await _context.Orders.FindAsync(id);
             _context.Orders.Remove(order);
             await _context.SaveChangesAsync();
+        }
+        public IEnumerable<Order> GetAll()
+        {
+            // Lấy tất cả các đơn hàng từ cơ sở dữ liệu và trả về
+            return _context.Orders.ToList();
+        }
+        // Cài đặt phương thức tính tổng số lượng đã bán của một sản phẩm
+        public async Task<int> GetTotalQuantitySoldAsync(int productId)
+        {
+            // Lấy tổng số lượng đã bán của sản phẩm dựa trên productId từ bảng OrderDetails
+            var totalQuantitySold = await _context.OrderDetails
+                .Where(od => od.ProductId == productId)
+                .SumAsync(od => od.Quantity);
+
+            return totalQuantitySold;
         }
     }
 }

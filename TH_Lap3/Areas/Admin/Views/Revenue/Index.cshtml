@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Monthly Revenue";
+}
+
+<h1>Monthly Revenue</h1>
+
+<form method="post" action="@Url.Action("MonthlyRevenue")">
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year" min="2000" max="2100" value="@DateTime.Now.Year" required>
+    <label for="month">Month:</label>
+    <input type="number" id="month" name="month" min="1" max="12" value="@DateTime.Now.Month" required>
+    <button type="submit">Get Revenue</button>
+</form>

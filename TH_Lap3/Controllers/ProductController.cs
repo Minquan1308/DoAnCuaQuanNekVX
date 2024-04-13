@@ -11,11 +11,12 @@ namespace TH_Lap3.Controllers
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly ApplicationDbContext _dbContext;
-
-        public ProductController(IProductRepository productRepository, ICategoryRepository categoryRepository, ApplicationDbContext dbContext)
+        private readonly IOrderRepository _orderRepository;
+        public ProductController(IProductRepository productRepository, ICategoryRepository categoryRepository, ApplicationDbContext dbContext, IOrderRepository orderRepository)
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
+            _orderRepository = orderRepository;
             _dbContext = dbContext; // Inject đối tượng DbContext vào controller
         }
 
@@ -39,6 +40,7 @@ namespace TH_Lap3.Controllers
                 {
                     product.Category = await _categoryRepository.GetByIdAsync(product.CategoryId);
                 }
+                product.TotalQuantitySold = await _orderRepository.GetTotalQuantitySoldAsync(product.Id);
             }
             return View(products);
         }

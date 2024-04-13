@@ -14,6 +14,8 @@ namespace TH_Lap3.Repositories
         Task<Order> GetByIdAsync(int id);
         Task UpdateAsync(Order order);
         Task DeleteAsync(int id);
+        IEnumerable<Order> GetAll();
+        Task<int> GetTotalQuantitySoldAsync(int productId);
 
     }
 }

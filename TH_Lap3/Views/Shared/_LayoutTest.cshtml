@@ -35,23 +35,18 @@
                         @await Component.InvokeAsync("Navbar");
 
 
-                        @* <select id="categoryDropdown">
-                        <option value="">-- Select a category --</option>
-                        @foreach (var category in Model)
-                        {
-                        <option value="@category.Id">@category.Name</option>
-                        }
-                        </select> *@
-                        @* <li class="nav-item">
+
+                        <li class="nav-item">
                             <a href="/OrderList/Index " class="btn text-white">
                                 <i class="fas fa-shopping-bag text-white"></i> <!-- Biểu tượng giỏ hàng từ Font Awesome -->
                             </a>
-                        </li> *@@* 
+                        </li>
+                        
                         <li class="nav-item">
                             <a href="/ShoppingCart/Index" class="btn text-white">
                                 <i class="bi-cart-fill me-2 text-white"></i>
                             </a>
-                        </li> *@
+                        </li> 
                         @using (Html.BeginForm("SearchResult", "Product", FormMethod.Get))
                         {
                             <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm">

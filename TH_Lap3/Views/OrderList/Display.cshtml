@@ -1,0 +1,40 @@
+﻿@model List<OrderDetail>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4 text-primary">Chi tiết đơn hàng</h1>
+        @foreach (var item in Model) // Model là danh sách chi tiết hóa đơn
+        {
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="@item.Product.ImageUrl" class="card-img" alt="Product Image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Product.Name</h5>
+                            <p class="card-text">Số lượng: @item.Quantity</p>
+                            <p class="card-text text-success font-weight-bold">$@item.Price</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="text-center">
+            <a asp-controller="Product" asp-action="Index" class="btn btn-primary">
+                <i class="fas fa-shopping-cart mr-2"></i>Tiếp tục mua hàng
+            </a>
+            <a asp-controller="OrderList" asp-action="Index" class="btn btn-primary">Back</a>
+        </div>
+    </div>
+</body>
+</html>

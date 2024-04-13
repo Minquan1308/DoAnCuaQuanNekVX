@@ -10,9 +10,9 @@ namespace TH_Lap3.Controllers
     public class OrderListController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly IOrderRepository _orderRepository;
-        public OrderListController(IOrderRepository orderRepository, ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public OrderListController(IOrderRepository orderRepository, ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _orderRepository = orderRepository;
             _context = context;
@@ -28,9 +28,8 @@ namespace TH_Lap3.Controllers
             {
                 // Truy vấn các đơn hàng của người dùng dựa trên UserId
                 var orders = await _context.Orders
-                    .Where(o => o.UserId == user.Id)
+                    .Where(o => o.ApplicationUser.Id == user.Id)
                     .ToListAsync();
-
                 return View(orders);
             }
             else

@@ -1,0 +1,77 @@
+﻿@model List<Order>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .table {
+            background-color: #fff;
+        }
+
+            .table th, .table td {
+                border-top: none;
+                vertical-align: middle;
+            }
+
+        .remove-link {
+            color: #dc3545;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+            .remove-link:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="mt-4">Đơn hàng đã đặt</h2>
+        <div class="table-responsive mt-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Mã đơn hàng</th>
+                        <th>Ngày đặt</th>
+                        <th>Tổng giá</th>
+                        <th>Địa chỉ nhận hàng</th>
+                        <th>Ghi chú</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model) //Model là danh sách Order
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.OrderDate</td>
+                            <td>$@item.TotalPrice</td>
+                            <td>@item.ShippingAddress</td>
+                            <td>@item.Notes</td>
+                            <td>
+                                <a asp-controller="OrderList" asp-action="Display" asp-route-id="@item.Id" class="btn" style="background-color: #FF9999;">Chi tiết</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a asp-controller="Product" asp-action="Index" class="btn btn-danger">Return</a>
+        </div>
+    </div>
+
+</body>
+</html>

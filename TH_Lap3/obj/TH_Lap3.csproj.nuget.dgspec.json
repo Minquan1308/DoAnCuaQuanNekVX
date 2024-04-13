@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj": {}
+    "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj": {
+    "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
+        "projectUniqueName": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
         "projectName": "TH_Lap3",
-        "projectPath": "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
+        "projectPath": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
         "packagesPath": "C:\\Users\\FPT SHOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\obj\\",
+        "outputPath": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FPT SHOP\\AppData\\Roaming\\NuGet\\NuGet.Config",

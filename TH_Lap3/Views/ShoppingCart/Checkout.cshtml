@@ -1,4 +1,4 @@
-﻿@model Order
+﻿@* @model Order
 <h2>Checkout</h2>
 <form asp-action="Checkout" method="post">
     <div class="form-group">
@@ -11,4 +11,18 @@
 <textarea asp-for="Notes" class="form-control"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Place Order</button>
+</form> *@
+@model TH_Lap3.Models.UpdateUserInfoViewModel
+
+<h3>Thông tin người dùng</h3>
+<form asp-action="Checkout" method="post">
+    @if (Model != null)
+    {
+        <div>
+            <p><strong>Họ và tên:</strong> @Model.FullName</p>
+            <p><strong>Địa chỉ:</strong> @Model.Address</p>
+            <p><strong>Số điện thoại:</strong> @Model.PhoneNumber</p>
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Đặt hàng</button>
 </form>

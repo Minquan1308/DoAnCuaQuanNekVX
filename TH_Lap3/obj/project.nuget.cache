@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gHbjLZP88Ay9MghJGpe6Ct9JZm78o5LmDsX6FN+8G0W87R3ar54OaYrFJy/MAPJv1dZ3Des67k1WB1NtMqzRjA==",
+  "dgSpecHash": "jYJWMbzjfkkRCIhUENiufNOCCN8QmHZweOyYWGLaXP+2jhHZb7mg1Ffw9WHJPng0WgvOd+/6A7rcUFdyfSj9rA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FPT SHOP\\Source\\Repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
+  "projectFilePath": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\TH_Lap3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\FPT SHOP\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -50,35 +50,148 @@ namespace TH_Lap3.Controllers
         }
         // Các actions khác...
 
-        
-        public IActionResult Checkout()
+
+        //public IActionResult Checkout()
+        //{
+        //    return View(new Order());
+        //}
+        //[HttpPost]
+        //public async Task<IActionResult> Checkout(Order order)
+        //{
+        //    var cart =
+        //    HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+        //    if (cart == null || !cart.Items.Any())
+        //    {
+        //        // Xử lý giỏ hàng trống...
+        //        return RedirectToAction("Index");
+        //    }
+        //    var user = await _userManager.GetUserAsync(User);
+        //    order.UserId = user.Id;
+        //    order.OrderDate = DateTime.UtcNow;
+        //    order.TotalPrice = cart.Items.Sum(i => i.Price * i.Quantity);
+        //    order.OrderDetails = cart.Items.Select(i => new OrderDetail
+        //    {
+        //        ProductId = i.ProductId,
+        //        Quantity = i.Quantity,
+        //        Price = i.Price
+        //    }).ToList();
+        //    _context.Orders.Add(order);
+        //    await _context.SaveChangesAsync();
+        //    HttpContext.Session.Remove("Cart");
+        //    return View("OrderCompleted", order.Id); // Trang xác nhận hoàn thành đơn hàng
+        //}
+        //public async Task<IActionResult> Checkout()
+        //{
+        //    var user = await _userManager.GetUserAsync(User);
+        //    if (user == null || string.IsNullOrEmpty(user.FullName) || string.IsNullOrEmpty(user.Address) || string.IsNullOrEmpty(user.PhoneNumber))
+        //    {
+        //        // Nếu thông tin người dùng chưa đủ, chuyển hướng đến trang cập nhật thông tin
+        //        return RedirectToAction("UpdateUserInfo");
+        //    }
+        //    return View(new Order());
+        //}
+        public async Task<IActionResult> Checkout()
         {
-            return View(new Order());
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null || string.IsNullOrEmpty(user.FullName) || string.IsNullOrEmpty(user.Address) || string.IsNullOrEmpty(user.PhoneNumber))
+            {
+                // Nếu thông tin người dùng chưa đủ, chuyển hướng đến trang cập nhật thông tin
+                return RedirectToAction("UpdateUserInfo");
+            }
+
+            // Truyền dữ liệu từ user object vào UpdateUserInfoViewModel
+            var model = new UpdateUserInfoViewModel
+            {
+                FullName = user.FullName,
+                Address = user.Address,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            return View(model);
         }
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order)
         {
-            var cart =
-            HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
             if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...
                 return RedirectToAction("Index");
             }
+
             var user = await _userManager.GetUserAsync(User);
+            if (user == null || string.IsNullOrEmpty(user.FullName) || string.IsNullOrEmpty(user.Address) || string.IsNullOrEmpty(user.PhoneNumber))
+            {
+                // Nếu thông tin người dùng chưa đủ, chuyển hướng đến trang cập nhật thông tin
+                return RedirectToAction("UpdateUserInfo");
+            }
+
             order.UserId = user.Id;
             order.OrderDate = DateTime.UtcNow;
             order.TotalPrice = cart.Items.Sum(i => i.Price * i.Quantity);
+            order.ShippingAddress = user.Address;
+            order.Notes = "";
             order.OrderDetails = cart.Items.Select(i => new OrderDetail
             {
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
                 Price = i.Price
             }).ToList();
+
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
             HttpContext.Session.Remove("Cart");
             return View("OrderCompleted", order.Id); // Trang xác nhận hoàn thành đơn hàng
+        }
+
+        public async Task<IActionResult> UpdateUserInfo()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var model = new UpdateUserInfoViewModel
+            {
+                FullName = user.FullName,
+                Address = user.Address,
+                PhoneNumber = user.PhoneNumber
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateUserInfo(UpdateUserInfoViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                user.FullName = model.FullName;
+                user.Address = model.Address;
+                user.PhoneNumber = model.PhoneNumber;
+
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    // Cập nhật thông tin thành công, chuyển hướng đến trang checkout
+                    return RedirectToAction("Checkout");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            }
+
+            // Nếu có lỗi, hiển thị lại form để người dùng nhập lại
+            return View(model);
         }
 
 

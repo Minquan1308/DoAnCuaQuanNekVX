@@ -62,16 +62,57 @@ namespace TH_Lap3.Controllers
             return View(order);
         }
         // Xử lý cập nhật sản phẩm
+        //[HttpPost]
+        //public async Task<IActionResult> Update(int id, Order order)
+        //{
+        //    if (id != order.Id)
+        //    {
+        //        return NotFound();
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
+        //        await _orderRepository.UpdateAsync(order); //Truyền vào 1 order và nó sẽ đc lưu vào DB
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(order);
+        //}
+
         [HttpPost]
         public async Task<IActionResult> Update(int id, Order order)
         {
+            var existingOrder = await _orderRepository.GetByIdAsync(id);
+            if (existingOrder == null)
+            {
+                return NotFound();
+            }
+
+            // Lấy thời gian hiện tại ở định dạng UTC
+            var currentTimeUtc = DateTime.UtcNow;
+
+            // Tính toán khoảng cách thời gian giữa thời gian hiện tại và thời gian đặt hàng của đơn đặt hàng
+            var timeDifference = currentTimeUtc - existingOrder.OrderDate;
+
+            // Kiểm tra xem thời gian đặt hàng có chưa quá 1 ngày hay không
+            if (timeDifference.TotalDays >= 1)
+            {
+                // Nếu đã quá 1 ngày, từ chối cập nhật và hiển thị thông báo cho người dùng
+                ModelState.AddModelError(string.Empty, "Bạn không thể cập nhật đơn hàng đã đặt hơn 1 ngày.");
+                return View(order);
+            }
+
+            // Kiểm tra sự khác biệt giữa Id trong URL và Id của đơn hàng được gửi
             if (id != order.Id)
             {
                 return NotFound();
             }
-            if (ModelState.IsValid)
+
+            // Cập nhật lại ShippingAddress và Notes
+            existingOrder.ShippingAddress = order.ShippingAddress;
+            existingOrder.Notes = order.Notes;
+
+            if (!ModelState.IsValid)
             {
-                await _orderRepository.UpdateAsync(order); //Truyền vào 1 order và nó sẽ đc lưu vào DB
+                await _orderRepository.UpdateAsync(existingOrder);
                 return RedirectToAction(nameof(Index));
             }
             return View(order);

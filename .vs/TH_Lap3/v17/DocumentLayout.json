@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\admin\\views\\admin\\create_account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\create_account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\admin\\views\\admin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\admin\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\product\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\product\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\shared\\_layouttest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,16 +39,52 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\orderlist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\controllers\\orderlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\orderlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\shoppingcart\\updateuserinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shoppingcart\\updateuserinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\models\\updateuserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\updateuserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\views\\orderlist\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\fpt shop\\source\\repos\\doancuaquannekvx1\\th_lap3\\areas\\admin\\controllers\\revenuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,54 +114,236 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T16:35:09.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T16:34:30.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create_Account.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Create_Account.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Create_Account.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Create_Account.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Create_Account.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T16:33:58.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T16:33:50.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T16:18:11.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Product\\SearchResult.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\SearchResult.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Product\\SearchResult.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Product\\SearchResult.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T15:59:38.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\ProductImage.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T15:48:37.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Delete.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T15:42:39.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T15:27:22.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateUserInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\ShoppingCart\\UpdateUserInfo.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\ShoppingCart\\UpdateUserInfo.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\ShoppingCart\\UpdateUserInfo.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\ShoppingCart\\UpdateUserInfo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T15:15:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "TH_Lap3\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAAAMEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T15:12:07.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateUserInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\UpdateUserInfoViewModel.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\UpdateUserInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\UpdateUserInfoViewModel.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\UpdateUserInfoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T15:11:04.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Update.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Update.cshtml",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Update.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Update.cshtml",
+              "ViewState": "AQIAAAQAAAB4ZmZmZqYowBMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T14:39:05.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderListController.cs",
+              "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Controllers\\OrderListController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\OrderListController.cs",
+              "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Controllers\\OrderListController.cs",
+              "RelativeToolTip": "TH_Lap3\\Controllers\\OrderListController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAAHkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:36:23.857Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "_LayoutTest.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
               "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
               "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADoAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAADwvzUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-13T13:34:05.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "TH_Lap3\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAADAAAAA/AAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAqwG8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-13T13:31:24.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
               "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
               "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEkAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-13T13:30:57.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IProductRepository.cs",
@@ -113,12 +351,11 @@
               "RelativeToolTip": "TH_Lap3\\Repositories\\IProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:29:39.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T13:29:39.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "EFOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Repositories\\EFOrderRepository.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\EFOrderRepository.cs",
@@ -131,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IOrderRepository.cs",
@@ -139,12 +376,11 @@
               "RelativeToolTip": "TH_Lap3\\Repositories\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:28:01.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T13:28:01.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\ProductController.cs",
@@ -152,12 +388,11 @@
               "RelativeToolTip": "TH_Lap3\\Controllers\\ProductController.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:25:10.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T13:25:10.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\Product.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Models\\Product.cs",
@@ -165,38 +400,37 @@
               "RelativeToolTip": "TH_Lap3\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:24:57.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T13:24:57.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\Order.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Models\\Order.cs",
               "RelativeToolTip": "TH_Lap3\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T13:24:14.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "ToolTip": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAEoBAAAAAAAAAAAWwFwBAABAAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-13T13:23:13.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "RevenueController.cs",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\Areas\\Admin\\Controllers\\RevenueController.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\RevenueController.cs",
@@ -204,12 +438,11 @@
               "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\RevenueController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T13:22:22.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T13:22:22.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\FPT SHOP\\source\\repos\\DoAnCuaQuanNekVX1\\TH_Lap3\\appsettings.json",
               "RelativeDocumentMoniker": "TH_Lap3\\appsettings.json",
@@ -217,8 +450,7 @@
               "RelativeToolTip": "TH_Lap3\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-13T01:52:04.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-13T01:52:04.015Z"
             }
           ]
         },

@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,77 +14,44 @@
 <body>
 
     <header>
-     @*    <nav class="navbar navbar-expand-sm navbar-toggleable-sm  box-shadow  p-3 text-white">
-        <div class="card text-center" style="background-color:lightpink">
-            <div class="card-header">
-                <ul class="nav nav-pills card-header-pills">
-                    <li class="nav-item">
-                        <a class="navbar-brand text-white fs-4" asp-area="" asp-controller="Home" asp-action="Index">Thế Giới Sách</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </nav>
- *@
-
-        <!-- Nội dung của phần tiêu đề ở đây -->
-         <nav class="navbar navbar-expand-sm navbar-toggleable-sm  box-shadow  p-3 text-white">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  box-shadow  p-3 text-white">
             <div class="container-fluid">
                 <a class="navbar-brand text-white fs-4" asp-area="" asp-controller="Home" asp-action="Index">Thế Giới Sách</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between align-items-center">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-white " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item ">
-                            <a class="nav-link text-white " asp-area="" asp-controller="Product" asp-action="Index">Product</a>
-                        </li
-
-
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Product" asp-action="Index">Product</a>
+                        </li>
                         @await Component.InvokeAsync("Navbar");
-                        
-                        
                         <li class="nav-item">
                             <a href="/OrderList/Index " class="btn text-white">
-                                <i class="fas fa-shopping-bag text-white"></i> <!-- Biểu tượng giỏ hàng từ Font Awesome -->
+                                <i class="fas fa-shopping-bag text-white"></i>
                             </a>
                         </li>
-                        
                         <li class="nav-item">
                             <a href="/ShoppingCart/Index" class="btn text-white">
                                 <i class="bi-cart-fill me-2 text-white"></i>
                             </a>
-                        </li> 
-                        @using (Html.BeginForm("SearchResult", "Product", FormMethod.Get))
-                        {
-                            <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm">
-                            <button type="submit">Tìm kiếm</button>
-                        }
-
+                        </li>
                     </ul>
-
-
-                    <partial name="_LoginPartial" />
-                    <form class="d-flex">
- 
-                    </form>
+                    <div class="d-flex align-items-center">
+                        @using (Html.BeginForm("SearchResult", "Product", FormMethod.Get, new { @class = "d-flex align-items-center" }))
+                        {
+                            <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm" class="form-control me-2">
+                            <button type="submit" class="btn btn-outline-light">Tìm kiếm</button>
+                        }
+                        <partial name="_LoginPartial" />
+                    </div>
                 </div>
             </div>
-        </nav> 
+        </nav>
     </header>
 
     <div class="container">

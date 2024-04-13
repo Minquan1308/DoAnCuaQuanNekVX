@@ -3,20 +3,316 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\adminregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\adminregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_layouttest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_layouttest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\orderlist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\th_lap3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\th_lap3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\eforderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\orderlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +323,8 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\order\\monthly_revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\order\\monthly_revenue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,24 +335,8 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\orderlist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\orderlist\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\orderlist\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,18 +351,6 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_layouttest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_layouttest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -111,48 +359,16 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\components\\search\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\components\\navbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\product\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\product\\searchresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\models\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -175,26 +391,6 @@
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\views\\admin\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|c:\\users\\dell\\source\\repos\\da_webcb\\th_lap3\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00BF33A4-25D6-4112-90C5-6C073C644AF3}|TH_Lap3\\TH_Lap3.csproj|solutionrelative:th_lap3\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -210,7 +406,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,19 +414,995 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\ICategoryRepository.cs",
-              "RelativeToolTip": "TH_Lap3\\Repositories\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:48:51.574Z"
+              "DocumentIndex": 0,
+              "Title": "AdminRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\AdminRegister.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\AdminRegister.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\AdminRegister.cshtml*",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\AdminRegister.cshtml*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T08:38:31.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:39.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LayoutTest.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAADwv1IAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:34:24.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T09:24:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml*",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvzUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T01:57:31.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:25.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml*",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAIwHgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:49:03.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:35:36.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:46:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:53:49.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T09:05:41.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DownloadPersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:56:10.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Disable2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:34:43.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:28:52.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:28:50.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:36:11.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeletePersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:34:44.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:56:12.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:58:03.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:53:51.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TH_Lap3\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:52:19.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\EFCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFCategoryRepository.cs",
+              "RelativeToolTip": "TH_Lap3\\Repositories\\EFCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T05:40:35.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:40:33.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:40:32.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "TH_Lap3\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:01:13.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "TH_Lap3\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:37:49.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T02:04:40.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Details.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Details.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Details.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Details.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T02:06:33.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Order.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:12:22.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T16:07:27.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:19:08.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:59.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:24:21.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:19:25.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Display.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Display.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Display.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Display.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:20:55.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAADwv24AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T04:15:14.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:46:49.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:46:53.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:51:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:20:47.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:19:27.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T04:10:24.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T04:13:46.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:18:23.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeletePersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwEwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T05:13:19.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EnableAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T05:04:41.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TwoFactorAuthentication.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T05:04:16.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA3wCsAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:58:17.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAcwI8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:51:27.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAA9wF4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T01:57:27.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:34:44.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TwoFactorAuthentication.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:56:17.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:34:46.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:56:29.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:35:20.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ResetAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:53:50.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Program.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Program.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Program.cs",
+              "RelativeToolTip": "TH_Lap3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T12:04:27.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "TH_Lap3\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "TH_Lap3\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-13T03:35:20.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:52:32.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:34:47.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TH_Lap3\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:44:32.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T02:24:29.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T04:20:24.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Category.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:18:31.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T04:18:31.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:42:26.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Navbar.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Navbar.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Models\\Navbar.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Navbar.cs",
+              "RelativeToolTip": "TH_Lap3\\Models\\Navbar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T15:41:27.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:31.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LoginWithRecoveryCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:59:04.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:59:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:56:18.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:51:45.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\EFProductRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFProductRepository.cs",
+              "RelativeToolTip": "TH_Lap3\\Repositories\\EFProductRepository.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAgwHgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T01:42:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "TH_Lap3",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\TH_Lap3.csproj",
+              "RelativeDocumentMoniker": "TH_Lap3\\TH_Lap3.csproj",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\TH_Lap3.csproj",
+              "RelativeToolTip": "TH_Lap3\\TH_Lap3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-13T03:22:20.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:32.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T03:18:24.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Order\\Index.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Order\\Index.cshtml",
@@ -243,43 +1415,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Order.cs",
-              "RelativeToolTip": "TH_Lap3\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 79,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "TH_Lap3\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:12:22.175Z"
+              "WhenOpened": "2024-04-13T02:48:51.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IOrderRepository.cs",
-              "RelativeToolTip": "TH_Lap3\\Repositories\\IOrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:01:13.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 77,
               "Title": "EFOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFOrderRepository.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\EFOrderRepository.cs",
               "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFOrderRepository.cs",
               "RelativeToolTip": "TH_Lap3\\Repositories\\EFOrderRepository.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAswC4AAAAuAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAA9wC4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:01:34.097Z"
+              "WhenOpened": "2024-04-12T16:01:34.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 78,
               "Title": "OrderListController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\OrderListController.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\OrderListController.cs",
@@ -287,47 +1449,12 @@
               "RelativeToolTip": "TH_Lap3\\Controllers\\OrderListController.cs",
               "ViewState": "AQIAAE4AAAAAAAAAAAAowF4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:45:34.072Z"
+              "WhenOpened": "2024-04-12T15:45:34.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EFProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFProductRepository.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\EFProductRepository.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\EFProductRepository.cs",
-              "RelativeToolTip": "TH_Lap3\\Repositories\\EFProductRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAwIwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:42:06.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "TH_Lap3\\Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T09:05:41.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Index.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Index.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T02:04:40.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 80,
               "Title": "Monthly_revenue.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Order\\Monthly_revenue.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Order\\Monthly_revenue.cshtml",
@@ -335,47 +1462,25 @@
               "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Order\\Monthly_revenue.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T02:29:58.554Z"
+              "WhenOpened": "2024-04-13T02:29:58.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAwwEQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:24:29.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:46:53.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 81,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\DataAccess\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\DataAccess\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\DataAccess\\ApplicationDbContext.cs",
               "RelativeToolTip": "TH_Lap3\\DataAccess\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T02:58:27.055Z"
+              "WhenOpened": "2024-04-10T02:58:27.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 82,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\appsettings.json",
               "RelativeDocumentMoniker": "TH_Lap3\\appsettings.json",
@@ -383,23 +1488,12 @@
               "RelativeToolTip": "TH_Lap3\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-13T01:52:04.015Z"
+              "WhenOpened": "2024-04-13T01:52:04.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Details.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Details.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Details.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Details.cshtml",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwDoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T02:06:33.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 83,
               "Title": "Display.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\OrderList\\Display.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\OrderList\\Display.cshtml",
@@ -407,23 +1501,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\OrderList\\Display.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T02:08:54.258Z"
+              "WhenOpened": "2024-04-13T02:08:54.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:24:21.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 85,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Models\\OrderDetail.cs",
@@ -431,11 +1514,12 @@
               "RelativeToolTip": "TH_Lap3\\Models\\OrderDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T02:12:53.001Z"
+              "WhenOpened": "2024-04-13T02:12:53.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 86,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\Add.cshtml",
@@ -443,23 +1527,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Product\\Add.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T02:05:02.984Z"
+              "WhenOpened": "2024-04-13T02:05:02.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAowG0AAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:49:03.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 84,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Product.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Models\\Product.cs",
@@ -467,83 +1540,25 @@
               "RelativeToolTip": "TH_Lap3\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T02:12:46.278Z"
+              "WhenOpened": "2024-04-10T02:12:46.278Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T01:57:27.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T01:57:31.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 90,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "TH_Lap3\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:54:53.484Z"
+              "WhenOpened": "2024-04-12T15:54:53.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "TH_Lap3\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:52:19.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_LayoutTest.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_LayoutTest.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:34:24.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:51:34.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 91,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
@@ -551,11 +1566,12 @@
               "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:50:48.158Z"
+              "WhenOpened": "2024-04-12T15:50:48.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 89,
               "Title": "SearchResult.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Product\\SearchResult.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\SearchResult.cshtml",
@@ -563,23 +1579,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Product\\SearchResult.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T16:02:41.733Z"
+              "WhenOpened": "2024-04-12T16:02:41.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Components\\Navbar\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T16:07:27.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 88,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Components\\Search\\Default.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Components\\Search\\Default.cshtml",
@@ -587,11 +1592,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Components\\Search\\Default.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T16:07:48.313Z"
+              "WhenOpened": "2024-04-12T16:07:48.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 87,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TH_Lap3\\wwwroot\\css\\site.css",
@@ -599,59 +1605,12 @@
               "RelativeToolTip": "TH_Lap3\\wwwroot\\css\\site.css",
               "ViewState": "AQIAAB8AAAAAAAAAAAAQwDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-12T16:09:11.021Z"
+              "WhenOpened": "2024-04-12T16:09:11.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:46:49.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TH_Lap3\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:44:32.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Models\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\ShoppingCart.cs",
-              "RelativeToolTip": "TH_Lap3\\Models\\ShoppingCart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:42:26.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Navbar.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Navbar.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Models\\Navbar.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Models\\Navbar.cs",
-              "RelativeToolTip": "TH_Lap3\\Models\\Navbar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:41:27.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 92,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Home\\Privacy.cshtml",
@@ -659,11 +1618,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:39:54.306Z"
+              "WhenOpened": "2024-04-12T15:39:54.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 93,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Home\\Index.cshtml",
@@ -671,11 +1631,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAwwAgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:39:07.024Z"
+              "WhenOpened": "2024-04-12T15:39:07.024Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 94,
               "Title": "Display.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Product\\Display.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\Display.cshtml",
@@ -683,11 +1644,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Product\\Display.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:36:09.661Z"
+              "WhenOpened": "2024-04-12T15:36:09.661Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 96,
               "Title": "Menu.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\Menu.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\Menu.cshtml",
@@ -695,23 +1657,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Shared\\Menu.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:35:49.702Z"
+              "WhenOpened": "2024-04-12T15:35:49.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "_ProductList.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_ProductList.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:35:36.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 95,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "TH_Lap3\\Views\\Product\\Index.cshtml",
@@ -719,71 +1670,12 @@
               "RelativeToolTip": "TH_Lap3\\Views\\Product\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T15:33:04.061Z"
+              "WhenOpened": "2024-04-12T15:33:04.061Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Program.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Program.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Program.cs",
-              "RelativeToolTip": "TH_Lap3\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:04:27.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T09:24:35.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T04:15:14.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T04:13:46.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
-              "RelativeDocumentMoniker": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
-              "RelativeToolTip": "TH_Lap3\\Areas\\Admin\\Views\\Admin\\Update.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-11T04:10:24.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 98,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "TH_Lap3\\wwwroot\\js\\site.js",
@@ -791,31 +1683,21 @@
               "RelativeToolTip": "TH_Lap3\\wwwroot\\js\\site.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-04-11T02:23:26.872Z"
+              "WhenOpened": "2024-04-11T02:23:26.872Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 97,
               "Title": "ProductApiController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductApiController.cs",
               "RelativeDocumentMoniker": "TH_Lap3\\Controllers\\ProductApiController.cs",
               "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Controllers\\ProductApiController.cs",
               "RelativeToolTip": "TH_Lap3\\Controllers\\ProductApiController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFUAAAAPAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwFUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:50:20.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "TH_Lap3\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\dell\\source\\repos\\DA_WebCB\\TH_Lap3\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "TH_Lap3\\Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T01:37:49.986Z"
+              "WhenOpened": "2024-04-11T01:50:20.676Z",
+              "EditorCaption": ""
             }
           ]
         },

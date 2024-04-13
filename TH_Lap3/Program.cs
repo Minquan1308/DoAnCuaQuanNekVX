@@ -38,6 +38,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
+builder.Services.AddScoped<UserManager<ApplicationUser>>();
 
 
 // Add services to the container.

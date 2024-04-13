@@ -30,8 +30,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Admin/Views/Admin/AdminRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtaW5SZWdpc3Rlci5jc2h0bWw=
+[C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Admin/Views/Admin/Create_Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlX0FjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Admin/Views/Admin/Delete.cshtml]
@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcTW9udGhseV9yZXZlbnVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Admin/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Identity/Pages/Account/Admin_Add_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBZG1pbl9BZGRfUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/dell/source/repos/DA_WebCB/TH_Lap3/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]

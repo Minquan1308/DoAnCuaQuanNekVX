@@ -38,6 +38,8 @@ namespace TH_Lap3.Areas.Identity.Pages.Account.Manage
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
             public string? Address { get;  set; }
+            
+            public string? FullName { get; set; }
         }
 
         [Required(ErrorMessage = "Hãy nhập địa chỉ của bạn")]
@@ -49,13 +51,15 @@ namespace TH_Lap3.Areas.Identity.Pages.Account.Manage
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
             var address = user.Address;
+            var fullName  = user.FullName;
 
             Username = userName;
 
             Input = new InputModel
             {
                 PhoneNumber = phoneNumber,
-                Address = address // Gán giá trị địa chỉ vào InputModel
+                Address = address, // Gán giá trị địa chỉ vào InputModel
+                FullName = fullName
             };
         }
 
@@ -98,6 +102,7 @@ namespace TH_Lap3.Areas.Identity.Pages.Account.Manage
 
             
                 user.Address = Input.Address;
+                user.FullName = Input.FullName;
                 var updateResult = await _userManager.UpdateAsync(user);
                 if (!updateResult.Succeeded)
                 {

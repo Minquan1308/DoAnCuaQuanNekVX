@@ -155,7 +155,14 @@ namespace TH_Lap3.Areas.Identity.Pages.Account
 
                     if(!String.IsNullOrEmpty(Input.Role))
                     {
-                        await _userManager.AddToRoleAsync(user, Input.Role);
+                        if (User.IsInRole(SD.Role_Admin))
+                        {
+                            await _userManager.AddToRoleAsync(user, Input.Role);
+                        }
+                        else
+                        {
+                            await _userManager.AddToRoleAsync(user, SD.Role_Customer);
+                        }
                     }
                     else
                     {

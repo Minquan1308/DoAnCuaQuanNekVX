@@ -1,0 +1,33 @@
+﻿@model IEnumerable<TH_Lap3.Models.ApplicationUser>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead style="background-color:gray;color: #fff;padding: 20px;text-align: center;">
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+            
+        </tr>
+    </thead>
+    <tbody style="background-image: linear-gradient(to right, #8360c3, #2ebf91);color: #fff;font-family: Arial, sans-serif;text-align: center;margin: 0;padding: 0;">
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>
+                    <a class="btn btn-primary" asp-action="View" asp-route-id="@user.Id">View</a> |
+                    <a class="btn btn-success" asp-action="Edit" asp-route-id="@user.Id">Edit</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@user.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

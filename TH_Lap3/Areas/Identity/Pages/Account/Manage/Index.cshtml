@@ -25,6 +25,13 @@
                 <label class="form-label">Địa chỉ</label>
                 <span asp-validation-for="Input.Address" class="text-danger"></span>
             </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.FullName" class="form-control" placeholder="Nhập Họ Tên của bạn." />
+                <label class="form-label">Họ Và Tên</label>
+                <span asp-validation-for="Input.FullName" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+          
             <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Lưu thông tin</button>
         </form>
     </div>

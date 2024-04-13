@@ -1,0 +1,54 @@
+﻿@page
+@model Admin_Add_RegisterModel
+@{
+    ViewData["Title"] = "Đăng ký";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Tạo tài khoản mới</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-group">
+                <label asp-for="Input.FullName">Họ và Tên</label>
+                <input asp-for="Input.FullName" class="form-control" aria-describedby="fullNameHelp" />
+                <span id="fullNameHelp" class="form-text text-danger" asp-validation-for="Input.FullName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Email">Email</label>
+                <input asp-for="Input.Email" class="form-control" aria-describedby="emailHelp" />
+                <span id="emailHelp" class="form-text text-danger" asp-validation-for="Input.Email"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password">Mật khẩu</label>
+                <input asp-for="Input.Password" type="password" class="form-control" aria-describedby="passwordHelp" />
+                <span id="passwordHelp" class="form-text text-danger" asp-validation-for="Input.Password"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.ConfirmPassword">Xác nhận lại mật khẩu</label>
+                <input asp-for="Input.ConfirmPassword" type="password" class="form-control" aria-describedby="confirmPasswordHelp" />
+                <span id="confirmPasswordHelp" class="form-text text-danger" asp-validation-for="Input.ConfirmPassword"></span>
+            </div>
+
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="form-group">
+                    <label asp-for="Input.Role">Chức vụ</label>
+                    <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-control">
+                        <option value="">Chọn chức vụ</option>
+                    </select>
+                    <span class="form-text text-danger" asp-validation-for="Input.Role"></span>
+                </div>
+            }
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng ký</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

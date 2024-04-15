@@ -1,4 +1,4 @@
-html {
+﻿html {
     font-size: 14px;
 }
 
@@ -17,10 +17,71 @@ html {
     min-height: 100%;
 }
 
+.bg-blue {
+    background-color: #003366;
+}
+
+.nav-link {
+    color: white;
+}
+
+    .nav-link:hover {
+        color: #cccccc;
+    }
+
+
+
+.navbar-nav.ml-auto {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.card {
+    display: flex;
+}
+
+.card_Name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.card_Des {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.card_Img {
+    width: 100%;
+    height: 200px;
+}
+
+/*button register*/
+.hover-text-dark:hover {
+    color: #000000 !important;
+}
+
+
+
+.nav-pills .nav-item .nav-link.active,
+.nav-pills .nav-item .nav-link:focus,
+.nav-pills .nav-item .nav-link:hover {
+    background-color: antiquewhite; /* Màu nền khi mục được click hoặc hover */
+    color: #fff; /* Màu chữ khi mục được click hoặc hover */
+}
+
 .product-container {
-    border: 1px solid #ccc; /* ??nh d?ng khung s?n ph?m */
+    border: 1px solid #ccc; /* Định dạng khung sản phẩm */
     padding: 20px;
-    margin-bottom: 20px; /* Kho?ng c�ch gi?a c�c s?n ph?m */
+    margin-bottom: 20px; /* Khoảng cách giữa các sản phẩm */
 }
 
 .product-details {
@@ -29,24 +90,10 @@ html {
 }
 
 .product-image {
-    max-width: 200px; /* ??nh d?ng k�ch th??c h�nh ?nh */
-    margin-right: 20px; /* Kho?ng c�ch gi?a h�nh ?nh v� m� t? s?n ph?m */
+    max-width: 200px; /* Định dạng kích thước hình ảnh */
+    margin-right: 20px; /* Khoảng cách giữa hình ảnh và mô tả sản phẩm */
 }
 
 .product-description {
-    flex: 1; /* M? r?ng m� t? s?n ph?m ?? l?p ??y ph?n c�n l?i c?a s?n ph?m */
-}
-
-header {
-    background-color: #FF9999; /* M�u n?n c?a header */
-    color: darkgray; /* M�u ch? c?a header */
-    font-family: 'Comic Sans MS';
-    font-size: larger;
-    height: 100px;
-    /*  padding: 20px;*/ /* Kho?ng c�ch gi?a n?i dung v� vi?n c?a header */
-    text-align: center; /* C?n gi?a n?i dung c?a header */
-}
-
-footer {
-    background-color: #FF9999;
+    flex: 1; /* Mở rộng mô tả sản phẩm để lấp đầy phần còn lại của sản phẩm */
 }

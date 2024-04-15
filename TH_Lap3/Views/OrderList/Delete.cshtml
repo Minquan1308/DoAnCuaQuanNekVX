@@ -1,59 +1,90 @@
 ﻿@model TH_Lap3.Models.Order
 
-@{
-    ViewData["Title"] = "Delete";
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết đơn hàng</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4">Thông tin đơn hàng</h2>
+        <div class="table-responsive mt-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Mã đơn hàng</th>
+                        <th>Ngày đặt</th>
+                        <th>Tổng giá</th>
+                        <th>Địa chỉ nhận hàng</th>
+                        <th>Ghi chú</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                    <tbody>
+                        <tr>
+                            <td>@Model.Id</td>
+                            <td>@Model.OrderDate</td>
+                            <td>@Model.TotalPrice</td>
+                            <td>@Model.ShippingAddress</td>
+                            <td>@Model.Notes</td>
+                        </tr>
+                    </tbody>
+                    }
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h2 class="text-danger">Delete Order</h2>
-            <hr />
-            <h4>Are you sure you want to delete this order?</h4>
-            <div>
-                <h4>Order Information:</h4>
-                <hr />
-                <dl class="row">
-                    <dt class="col-sm-3">
-                        Order ID:
-                    </dt>
-                    <dd class="col-sm-9">
-                        @Model.Id
-                    </dd>
-                    <dt class="col-sm-3">
-                        Order Date:
-                    </dt>
-                    <dd class="col-sm-9">
-                        @Model.OrderDate
-                    </dd>
-                    <dt class="col-sm-3">
-                        Total Price:
-                    </dt>
-                    <dd class="col-sm-9">
-                        @Model.TotalPrice
-                    </dd>
-                    <dt class="col-sm-3">
-                        Shipping Address:
-                    </dt>
-                    <dd class="col-sm-9">
-                        @Model.ShippingAddress
-                    </dd>
-                    <dt class="col-sm-3">
-                        Notes:
-                    </dt>
-                    <dd class="col-sm-9">
-                        @Model.Notes
-                    </dd>
-                </dl>
-            </div>
-            <hr />
-            <form asp-action="Delete" method="post">
-                <input type="hidden" asp-for="Id" />
+                </tbody>
+            </table>
+            
+          
+
+            <form asp-action="DeleteConfirmed" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
                 <div class="form-group">
-                    <button type="submit" class="btn btn-danger">Delete</button>
-                    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                      <a asp-controller="OrderList" asp-action="Index" class="btn btn-primary">Trở về</a>
+                     <a asp-controller="OrderList" asp-action="Display" asp-route-id="@Model.Id" class="btn btn-primary">Chi tiết</a>
+                    <button type="submit" class="btn btn-danger">Xóa đơn hàng</button>
+                    @* a asp-action="Index" class="btn btn-secondary">Hủy</a> *@
                 </div>
             </form>
         </div>
     </div>
-</div>
+</body>
+</html>
+
+
+
+
+
+
+@* 
+            <a asp-controller="OrderList" asp-action="Index" class="btn btn-danger">Trở về</a>
+            <a asp-controller="OrderList" asp-action="Display" class="btn btn-danger">Chi tiết</a>
+        </div>
+    </div>
+    <form asp-action="DeleteConfirmed" method="post" id="deleteForm">
+                <input type="hidden" asp-for="@model.Id"/>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+                </div>
+            </form>
+
+</body>
+</html>
+           *@  
+ 
+
+@* <button type="button" class="btn btn-danger" onclick="confirmDelete()">Xóa Đơn Hàng</button>
+
+<script>
+    function confirmDelete() {
+        if (confirm("Bạn có chắc muốn xóa đơn hàng này không?")) {
+            document.getElementById("deleteForm").submit();
+        }
+    }
+</script>
+ *@

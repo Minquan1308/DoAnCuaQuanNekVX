@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Products Display";
+}
+
+<style>
+    .star-rating {
+        font-size: 18px; /* Kích thước sao */
+        color: orange; /* Màu sao */
+    }
+</style>
+
+<h1 class="text-center mt-4 mb-4">Products Display</h1>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+        @foreach (var product in Model)
+        {
+            <div class="col mb-4">
+                <div class="card">
+                    @if (!String.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="Product Image">
+                    }
+                    else
+                    {
+                        <div class="card-img-top text-center">No Image</div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.Category.Name</p>
+                        <h6 class="card-subtitle mb-2 text-muted">@product.Price</h6>
+                    </div>
+                    <div class="card-footer text-center">
+                        @* <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <div class="input-group">
+                                <input type="number" class="form-control" name="quantity" value="1" min="1">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-primary" type="submit">AddToCart</button>
+                                </div>
+                            </div>
+                        </form> *@
+                        <small class="text-muted">Đã bán: @product.TotalQuantitySold</small>
+                        <div class="star-rating text-center">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

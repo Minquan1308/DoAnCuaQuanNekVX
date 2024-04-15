@@ -51,6 +51,24 @@ namespace TH_Lap3.Controllers
             return View(order);
         }
 
+        public async Task<IActionResult> Details(int id)
+        {
+            // Lấy tất cả các đơn hàng từ cơ sở dữ liệu
+            var orders = await _context.OrderDetails
+                                        .Include(od => od.Product)
+                                        .ToListAsync();
+
+            if (orders == null || !orders.Any())
+            {
+                // Nếu không tìm thấy đơn hàng, trả về trang 404 Not Found
+                return NotFound();
+            }
+
+            // Trả về view chi tiết với danh sách tất cả các đơn hàng đã lấy được
+            return View(orders);
+        }
+
+
         // Hiển thị form cập nhật sản phẩm
         public async Task<IActionResult> Update(int id)
         {
@@ -121,15 +139,33 @@ namespace TH_Lap3.Controllers
         // Hiển thị form xác nhận xóa sản phẩm
         public async Task<IActionResult> Delete(int id)
         {
-            var product = await _orderRepository.GetByIdAsync(id); //Trả về 1 đối tượng Order có id = tham số id 
-            if (product == null)
+            var existingOrder = await _orderRepository.GetByIdAsync(id);
+            if (existingOrder == null)
             {
                 return NotFound();
             }
-            return View(product);
+
+            // Lấy thời gian hiện tại ở định dạng UTC
+            var currentTimeUtc = DateTime.UtcNow;
+
+            // Tính toán khoảng cách thời gian giữa thời gian hiện tại và thời gian đặt hàng của đơn đặt hàng
+            var timeDifference = currentTimeUtc - existingOrder.OrderDate;
+
+            // Kiểm tra xem thời gian đặt hàng có chưa quá 1 ngày hay không
+            if (timeDifference.TotalDays >= 1)
+            {
+                // Nếu đã quá 1 ngày, từ chối xóa và hiển thị thông báo cho người dùng
+                ModelState.AddModelError(string.Empty, "Bạn không thể xóa đơn hàng đã đặt hơn 1 ngày.");
+                return View(existingOrder);
+            }
+
+            // Nếu thời gian chưa quá 1 ngày, cho phép xóa
+            return View(existingOrder);
         }
+
+
         // Xử lý xóa sản phẩm
-        [HttpPost, ActionName("Delete")]
+        [HttpPost/*, ActionName("Delete")*/]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _orderRepository.DeleteAsync(id);

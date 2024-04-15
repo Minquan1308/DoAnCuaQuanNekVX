@@ -208,7 +208,6 @@ namespace TH_Lap3.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Role")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
@@ -273,6 +272,9 @@ namespace TH_Lap3.Migrations
 
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("TotalQuantitySold")
+                        .HasColumnType("int");
 
                     b.Property<string>("UserId")
                         .IsRequired()
@@ -339,6 +341,9 @@ namespace TH_Lap3.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("TotalQuantitySold")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

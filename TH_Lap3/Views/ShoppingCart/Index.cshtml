@@ -1,45 +1,51 @@
 ﻿@model ShoppingCart
-<h2>Your Cart</h2>
-
+<h2>Giỏ hàng của bạn</h2>
 <table class="table">
-    <thead style="background-color:gray;color: #fff;
-           padding: 20px;
-           text-align: center;">
+    <thead>
         <tr>
-            <th>Product</th>
-            <th>Image</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
+            <th scope="col">Hình ảnh</th>
+            <th scope="col">Sản phẩm</th>
+            <th scope="col">Số lượng</th>
+            <th scope="col">Giá</th>
+            <th scope="col">Tổng tiền</th>
         </tr>
     </thead>
-    <tbody style="background-image: linear-gradient(to right, #8360c3, #2ebf91);color: #fff;font-family: Arial, sans-serif;text-align: center;
-    margin: 0;
-    padding: 0;">
+    <tbody>
         @foreach (var item in Model.Items)
         {
             <tr>
-
-                <td>@item.Name</td>
                 <td>
                     @if (!string.IsNullOrEmpty(@item.ImageUrl))
                     {
-                        <img src="@item.ImageUrl" alt="Product Image" style="max-width: 200px;" />
+                        <img src="@item.ImageUrl" alt="Product Image" style="max-width: 50px;" />
                     }
                 </td>
-                <td>@item.Quantity</td>
+                <td>@item.Name</td>
+                <td>
+                    <form asp-controller="ShoppingCart" asp-action="UpdateQuantity" method="post">
+                        <input type="hidden" name="productId" value="@item.ProductId" />
+                        <label for="quantity">Số lượng:</label>
+                        <input type="number" id="quantity" name="quantity" value="@item.Quantity" />
+                        <button class="btn btn-primary" type="submit">Cập nhật</button>
+                    </form>
+                </td>
                 <td>@item.Price</td>
                 <td>@(item.Price * item.Quantity)</td>
                 <td>
-                    <a class="btn btn-info" asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Remove</a>
+                    @*  tạo ra một tham số route có tên là "productId" với giá trị là ID của sản phẩm *@
+                   @*  <button class="btn btn-outline-light" style="background-color: #FF9999; " type="submit">Lưu số lượng</button> *@
+                    <a class="btn btn-outline-light" style="background-color: #FF9999;" asp-action="RemoveFromCart" asp-route-productId="@item.ProductId">Xóa</a>
+                    @* Tham số route này sẽ được truyền đến hành động RemoveFromCart khi liên kết được nhấp. *@
                 </td>
 
 
             </tr>
 
+
         }
     </tbody>
 </table>
 
-<a type="submit" class="btn btn-warning" asp-action="Checkout">Check Out</a>
-<a class="btn btn-success" asp-area="" asp-controller="Home" asp-action="Index">Back</a>
+<a type="submit" class="btn btn-outline-light bg-blue"  asp-action="Checkout">Mua hàng</a>
+
+<a class="btn btn-outline-light bg-blue " asp-area="" asp-controller="Product" asp-action="Index">Về trang sản phẩm</a>

@@ -19,10 +19,10 @@
     </ul>
 </div> *@
 <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Categories
+    <button class="btn btn-secondaryx btn-outline-light bg-blue dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Danh mục
     </button>
-    <ul class="dropdown-menu">
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
         @foreach (var category in Model)
         {
             <li><a class="dropdown-item" href="@Url.Action("FilterByCategory", "Product", new { categoryId = category.Id })">@category.Name</a></li>

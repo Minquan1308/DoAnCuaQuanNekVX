@@ -1,0 +1,40 @@
+﻿@model IEnumerable<TH_Lap3.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+//      Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+ 
+  <h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+           
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+            
+            
+        </tr>
+        @* <button>
+            <a id="addCategoryLink" href="~/Admin/Category/Add">Add</a>
+        </button> *@
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+            
+                <td>
+                    <a class="btn btn-primary" asp-action="Display" asp-route-id="@product.Id">View</a> |
+                    <a class="btn btn-success" asp-action="Update" asp-route-id="@product.Id">Edit</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table> 

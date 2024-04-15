@@ -24,5 +24,20 @@
             <p><strong>Số điện thoại:</strong> @Model.PhoneNumber</p>
         </div>
     }
-    <button type="submit" class="btn btn-primary">Đặt hàng</button>
+    <button type="button"  class="btn btn-outline-light bg-blue" id="updateButton">Cập nhật</button>
+    <button type="submit" class="btn btn-outline-light bg-blue">Đặt hàng</button>
+    <button type="button" class="btn btn-outline-light bg-blue" id="exitButton">Hủy đặt hàng</button>
 </form>
+<script>
+    document.getElementById("updateButton").addEventListener("click", function() {
+        window.location.href = "/ShoppingCart/UpdateUserInfo"; // Thay đổi đường dẫn tương ứng với trang cập nhật thông tin của bạn
+    });
+
+    document.getElementById("exitButton").addEventListener("click", function() {
+        window.location.href = "/ShoppingCart/Index"; // Thay đổi đường dẫn tương ứng với trang chính của bạn
+    });
+</script>
+
+    
+    
+

@@ -4,45 +4,44 @@
 }
 
 <h1>Index</h1>
+@* <a id="addProductLink" href="~/Admin/Product/Add">Add</a> *@
+
+
 
 <table class="table">
-    <thead style="background-color:gray;color: #fff;
-           padding: 20px;
-           text-align: center;">
+    <thead>
         <tr>
             <th>Name</th>
             <th>Price</th>
-            <th>Description</th>
-            <th>Image</th>
+            <th>Description</th> 
             <th>Category</th>
             <th>Actions</th>
         </tr>
+
     </thead>
-    <tbody style="background-image: linear-gradient(to right, #8360c3, #2ebf91);color: #fff;font-family: Arial, sans-serif;text-align: center;
-    margin: 0;
-    padding: 0;">
-        @foreach (var product in Model)
-        {
-            <tr>
-                <td>@product.Name</td>
-                <td>@product.Price</td>
-                <td>@product.Description</td>
-                @* <td>@product.ImageUrl</td> *@
+    <tbody>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+            <td>@product.Description</td> 
+            @* <td>@(product.Category != null ? product.Category.Name : "No Category")</td> *@
+            <td>@product.Category.Name</td>
                 <td>
                     @if (!string.IsNullOrEmpty(@product.ImageUrl))
                     {
-                        <img src="@product.ImageUrl" alt="Product Image" style="max-width: 200px;" />
+                        <img src="@product.ImageUrl" alt="Product Image" style="width: 200px; height: 200px;" />
+
                     }
                 </td>
-                <td>@product.Category?.Name </td>
-
-                <td>
-                    <a class="btn btn-primary" asp-action="Display" asp-route-id="@product.Id">View</a> |
-                    <a class="btn btn-success" asp-action="Update" asp-route-id="@product.Id">Edit</a> |
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
-                </td>
-            </tr>
-        }
+            <td>
+                <a asp-action="Display" asp-route-id="@product.Id">View</a> |
+                <a asp-action="Update" asp-route-id="@product.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+            </td>
+        </tr>
+    }
     </tbody>
 </table>
 

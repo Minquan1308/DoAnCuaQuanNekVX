@@ -103,7 +103,7 @@ namespace TH_Lap3.Controllers
                 }
             }
             // Trả về một PartialView chứa danh sách sản phẩm đã lọc
-            return View("_ProductList", products);
+            return View("FilterByCategory", products);
         }
     }
 }

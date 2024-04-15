@@ -93,6 +93,14 @@ namespace TH_Lap3.Controllers
         public async Task<IActionResult> Checkout()
         {
             var user = await _userManager.GetUserAsync(User);
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart");
+            if (cart == null || !cart.Items.Any())
+            {
+                // Xử lý giỏ hàng trống...
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống. Hãy thêm sản phẩm vào giỏ hàng trước khi tiếp tục.";
+                //return RedirectToAction("Index");
+                return RedirectToAction("Index");
+            }
             if (user == null || string.IsNullOrEmpty(user.FullName) || string.IsNullOrEmpty(user.Address) || string.IsNullOrEmpty(user.PhoneNumber))
             {
                 // Nếu thông tin người dùng chưa đủ, chuyển hướng đến trang cập nhật thông tin
@@ -116,6 +124,7 @@ namespace TH_Lap3.Controllers
             if (cart == null || !cart.Items.Any())
             {
                 // Xử lý giỏ hàng trống...
+                TempData["ErrorMessage"] = "Giỏ hàng của bạn đang trống. Hãy thêm sản phẩm vào giỏ hàng trước khi tiếp tục.";
                 return RedirectToAction("Index");
             }
 
@@ -213,6 +222,15 @@ namespace TH_Lap3.Controllers
             }
             return RedirectToAction("Index");
         }
-        
+        public async Task<IActionResult> UpdateQuantityAsync(int productId, int quantity)
+        {
+            //    Nếu không có đối tượng giỏ hàng trong phiên, nó tạo một đối tượng ShoppingCart mới.
+            //    Sau đó, nó cập nhật số lượng của sản phẩm cụ thể trong giỏ hàng bằng cách sử dụng
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            cart.UpdateQuantity(productId, quantity);
+            HttpContext.Session.SetObjectAsJson("Cart", cart); //lưu đối tượng giỏ hàng đã cập nhật trở lại phiên sử dụng 
+            return RedirectToAction("Index");
+        }
+
     }
 }

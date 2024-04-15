@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TH_Lap3.Repositories;
 using TH_Lap3.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace TH_Lap3.Controllers
 {
@@ -10,21 +11,69 @@ namespace TH_Lap3.Controllers
     [Authorize(Roles = SD.Role_Admin)]
     public class AdminController : Controller
     {
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IProductRepository _productRepository;
         private readonly ICategoryRepository _categoryRepository;
+        public async Task<IActionResult> CreateAdminAccount()
+        {
+            if (!await _roleManager.RoleExistsAsync("Admin"))
+            {
+                await _roleManager.CreateAsync(new IdentityRole("Admin"));
+            }
+
+            var user = new ApplicationUser
+            {
+                FullName = "Thu Phương",
+                UserName = "Admin@gmail.com",
+                Email = "Admin@gmail.com"
+            };
+
+            var result = await _userManager.CreateAsync(user, "Abc@123");
+
+            if (result.Succeeded)
+            {
+                // Kiểm tra người dùng đã được tạo thành công
+                var createdUser = await _userManager.FindByEmailAsync("Admin@gmail.com");
+                if (createdUser != null)
+                {
+                    await _userManager.AddToRoleAsync(createdUser, "Admin");
+                    return Content("Admin Account Created Successfully!");
+                }
+                else
+                {
+                    return BadRequest("Failed to Create Admin Account: User not found");
+                }
+            }
+            else
+            {
+                return BadRequest("Failed to Create Admin Account: " + string.Join(", ", result.Errors.Select(e => e.Description)));
+            }
+        }
 
 
-        public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository)
+        public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
+            _userManager = userManager;
+            _roleManager = roleManager;
         }
 
 
         // Hiển thị danh sách sản phẩm
         public async Task<IActionResult> Index()
         {
+
             var products = await _productRepository.GetAllAsync();
+            foreach (var product in products)
+            {
+                if (product.CategoryId != null)
+                {
+                    product.Category = await _categoryRepository.GetByIdAsync(product.CategoryId);
+                }
+                //product.TotalQuantitySold = await _orderRepository.GetTotalQuantitySoldAsync(product.Id);
+            }
             return View(products);
         }
         // Hiển thị form thêm sản phẩm mới

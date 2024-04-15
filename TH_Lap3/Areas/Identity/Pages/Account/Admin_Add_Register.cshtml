@@ -2,11 +2,12 @@
 @model Admin_Add_RegisterModel
 @{
     ViewData["Title"] = "Đăng ký";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 <h1>@ViewData["Title"]</h1>
 
 <div class="row">
-    <div class="col-md-4">
+    <div class="col">
         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
             <h2>Tạo tài khoản mới</h2>
             <hr />
@@ -44,8 +45,6 @@
             }
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Đăng ký</button>
         </form>
-    </div>
-    <div class="col-md-6 col-md-offset-2">
     </div>
 </div>
 

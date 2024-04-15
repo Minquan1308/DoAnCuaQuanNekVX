@@ -8,9 +8,11 @@
 @{
     if (User.Identity?.IsAuthenticated ?? false)
     {
-        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-            <button type="submit" class="nav-link btn btn-danger text-light">Bấm vào đây để đăng xuất</button>
-        </form>
+             
+                <form id="logoutForm" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post">
+                    <button class="dropdown-item" type="submit">Đăng xuất</button>
+                </form>
+            
     }
     else
     {

@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<TH_Lap3.Models.Product>
 
 @{
-    ViewData["Title"] = "Kết quả tìm kiếm";
+    ViewData["Title"] = "Kết quả tìm kiếm ";
 }
 
 <style>
@@ -23,7 +23,7 @@
                     <div class="card">
                         @if (!String.IsNullOrEmpty(product.ImageUrl))
                         {
-                            <img src="@product.ImageUrl" class="card-img-top" alt="Product Image">
+                            <img src="@product.ImageUrl" alt="Product Image" style="width: 250px; height: 250px; display: block; margin: 0 auto;" />
                         }
                         else
                         {
@@ -38,11 +38,12 @@
                             <form asp-controller="ShoppingCart" asp-action="AddToCart" method="post">
                                 <input type="hidden" name="productId" value="@product.Id" />
                                 <div class="input-group">
-                                    <input type="number" class="form-control" name="quantity" value="1" min="1">
-                                    <div class="input-group-append">
-                                        <button class="btn btn-outline-primary" type="submit">AddToCart</button>
+                                        
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-primary" type="submit">Thêm vào giỏ hàng</button>
+                                        </div>
+                                        <input type="number" class="form-control" name="quantity" value="1" min="1">
                                     </div>
-                                </div>
                             </form>
                             <small class="text-muted">Đã bán: @product.TotalQuantitySold</small>
                             <div class="star-rating text-center">
